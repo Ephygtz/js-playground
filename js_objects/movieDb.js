@@ -11,7 +11,7 @@
 */
 
 "use strict";
-const movieDb = [
+const moviesDb = [
 	{title : "The gods must be crazy", rating : 3.5, hasWatched : true},
 	{title : "GOT", rating : 5, hasWatched : true},
 	{title : "Rick and Morty", rating : 4.5, hasWatched : false},
@@ -20,16 +20,30 @@ const movieDb = [
 	{title : "12 Stronh", rating : 5, hasWatched : true}
 ];
 
-console.log(movieDb);
-for(let i = 0; i < movieDb.length; i++){
+// console.log(moviesDb);
+//Using a forLoop
+for(let i = 0; i < moviesDb.length; i++){
 	//Start building the string
 	let output = "You have ";
 	//check if watched is true
-	if(movieDb[i].hasWatched){
+	if(moviesDb[i].hasWatched){
 		output += " WATCHED ";
 	} else {
 		output += " HAVE NOT WATCHED ";
 	}
-	output += " \" " + movieDb[i].title + " \" - " + movieDb[i].rating + " stars.";
+	output += " \" " + moviesDb[i].title + " \" - " + moviesDb[i].rating + " stars.";
 	console.log(output);
 }
+console.log("\n *********************** \n ");
+
+//Using a forEach loop
+moviesDb.forEach((movie) => {
+	let buildString = `You have `;
+	if(movie.hasWatched){
+		buildString += ` WATCHED `;
+	}else {
+		buildString += ` HAVE NOT WATCHED `;
+	}
+	buildString += ` \" ${movie.title} \" ${movie.rating} stars.`;
+	console.log(buildString);
+});
