@@ -16,3 +16,10 @@ var someObject = {
 	color : "baby blue", 
 	isEvil: true
 };
+
+//my solution
+var pals = someObject.friends;
+pals.forEach(function(item){
+	console.log(item["name"]);
+});
+console.log("Favourite color is " + someObject.color);
