@@ -20,6 +20,7 @@ const moviesDb = [
 	{title : "12 Stronh", rating : 5, hasWatched : true}
 ];
 
+
 // console.log(moviesDb);
 //Using a forLoop
 for(let i = 0; i < moviesDb.length; i++){
