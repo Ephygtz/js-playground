@@ -8,11 +8,11 @@ Write code to print the following
 */
 
 var someObject = {
-	friends : [
-		{name : "Izoh"}, 
-		{name : "Ephra"}, 
-		{name : "Mufasa"}
-		], 
-	color : "baby blue", 
-	isEvil: true
+    friends: [
+        { name: "Izoh" },
+        { name: "Ephra" },
+        { name: "Mufasa" }
+    ],
+    color: "baby blue",
+    isEvil: true
 };
