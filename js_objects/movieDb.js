@@ -11,19 +11,27 @@
 */
 
 
-//my solution
-
 //an array of movies
 let movies = [{title: "Deadpool", rating: 4.5, haswatched: true},
 			  {title: "Infinity War", rating: 4.4, haswatched: false},
 			  {title: "Ragnarok", rating: 4.8, haswatched: true},
 			  {title: "Incredibles", rating: 4.2, haswatched: false}];
 
-movies.forEach(function(item) {
-	if(item["haswatched"] === true){
-		console.log("You have watched " +"\"" + item["title"] + "\"" + " - " + item["rating"] + "stars");
-	}else{
-		console.log("You have NOT watched " +"\"" + item["title"] + "\"" + " - " + item["rating"] + "stars");
-	}
+ //my solution
+// movies.forEach(function(item) {
+// 	if(item["haswatched"] === true){
+// 		console.log(`You have watched ${item.title} rating - ${item.rating}`);
+// 	}else{
+// 		console.log(`You have NOT watched ${item.title} rating - ${item.rating}`);
+// 	}
 	
-});
+// });
+
+//another solution
+for (let i =0; i < movies.length; i++){
+	if (movies[i].haswatched){
+		console.log(`You have watched "${movies[i].title}" rating - ${movies[i].rating}`);
+	}else{
+		console.log(`You have NOT watched "${movies[i].title}" rating - ${movies[i].rating}`);
+	}
+}
