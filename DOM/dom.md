@@ -1,3 +1,3 @@
-# DeveloperGroupsKE
+# JS DOM MANIPULATION
 
-A list of Developer Groups in Kenya.
+A sample dom manipulation via js
