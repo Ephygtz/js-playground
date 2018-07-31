@@ -1,7 +1,8 @@
-# **Let's get social** Influential Twitter accounts to follow 
+# **Let's get coding**  JS projects built as we refine our JS skills 
 
 Links:
 
-## Events
+## FrontEnd Projects
+	* [RGB Color Game](#)
 
 ## Resources
