@@ -21,3 +21,8 @@ h1 {
 	margin:  auto;
 }
 
+.display {
+	padding: 1.3em;
+	background: rgb(12, 101, 167);
+}
+
