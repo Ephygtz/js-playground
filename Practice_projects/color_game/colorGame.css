@@ -1,0 +1,28 @@
+body {
+	background-color: #000;
+}
+
+.square {
+	width: 30%;
+	padding-top: 30%;
+	background-color: pink;
+	/*display: inline;*/
+	float: left;
+	margin: 1.5%;
+}
+
+h1 {
+	color: #fff;
+}
+
+.container {
+	width: 800px;
+	height: 800px;	
+	margin:  auto;
+}
+
+.display {
+	padding: 1.3em;
+	background: rgb(12, 101, 167);
+}
+
