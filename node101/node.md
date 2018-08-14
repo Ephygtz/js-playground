@@ -11,3 +11,10 @@
 	* Create another file "grader.js"
 	* Define a function named average that takes in a single parameter: an array of test scores(all ints)
 	* it should return the average score in the array, rounded to the nearest whole number.
+
+## Exercise3
+	* Create a new directory named myShop
+	* Add a file named listProducts,js
+	* Install the "Faker" package
+	* Read the Faker docs and figure out how it works
+	* Use Faker to print out 15 random products names and prices
