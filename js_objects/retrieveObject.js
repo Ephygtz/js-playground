@@ -18,6 +18,14 @@ let someObject = {
 	isEvil: true
 };
 
+//my solution
+var pals = someObject.friends;
+pals.forEach(function(item){
+	console.log(item["name"]);
+});
+console.log("Favourite color is " + someObject.color);
+
+//ephraim's solution
 // let concatenatedString = ` * ${someObject.friends[0]["name"]}  
 // 				${someObject.friends[1]["name"]} ${someObject.friends[1]["name"]} '\n' 
 // 				${someObject.friends[1]["name"]}`;

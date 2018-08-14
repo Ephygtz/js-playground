@@ -1,0 +1,20 @@
+body{
+    background-color: #000;
+    
+}
+.heading{
+    text-align: center;
+    color: #fff;
+}
+.container{
+    margin: 0 auto;
+    height: 1000px;
+    width: 1000px;
+}
+.square{
+    background-color: pink;
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+}
