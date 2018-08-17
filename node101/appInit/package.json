@@ -1,0 +1,15 @@
+{
+  "name": "initializeapp",
+  "version": "1.0.0",
+  "description": "initialize node app with packagejson",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ephraim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "knock-knock-jokes": "^1.7.0"
+  }
+}
