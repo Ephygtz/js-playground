@@ -9,7 +9,7 @@ const express = require('express');
 const app = express(); 
 
 app.get('/', function(req, res){
-    res.send("<h1>Hi there welcome to my assignment!</h1>");
+    res.status(200).send("<h1>Hi there welcome to my assignment!</h1>");
 });
 /*the full colon is placed before the parameter to match with user's params.
 the other params without the : prefix remain the same in order to access the route */

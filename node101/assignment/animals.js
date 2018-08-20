@@ -40,8 +40,10 @@ app.get('/repeat/:mes/:count', function(req, res){
     if(count <= 0){
         res.send('<h2>What are you doing?!</h2>');
     }else{
+        //repeat string using es6 function repeat
         res.send(`${name} `.repeat(count));
         
+        //consoling a message
         console.log('request made from /repeat/:/:');
     }
 });
