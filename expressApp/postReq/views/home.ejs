@@ -1,0 +1,12 @@
+<h1>Current Ninja Skills</h1>
+
+<% skills.forEach(function(skill){ %>
+    <li> <%= skill %> </li>
+<% }) %>
+
+<form action="/skills" method="post">
+    <label>Add Skills:
+        <input type="text" name="newSkill" placeholder="New Ninja Skill Acquired">
+    </label>
+        <button type="submit" name="add">Add</button>
+</form>
