@@ -1,0 +1,15 @@
+<h1>My Skills as a Dev</h1>
+
+<ol>
+<%mySkills.forEach((item) => { %>
+    <li><%= item %></li>
+<% }) %>
+</ol>
+
+
+<form action="/skills" method="POST">
+    <label for="skill">Add a Skill:
+        <input type="text" name="skill" id="skill" placeholder="enter new dev skill">
+    </label>
+    <input type="submit" name="Add">
+</form>

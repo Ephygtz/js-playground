@@ -5,7 +5,7 @@ const express = require('express');
 const app = express()
 
 const request = require('request');
-const ejs = require('ejs');
+// const ejs = require('ejs');
 
 //using ejs render engine
 app.set("view engine", "ejs");
